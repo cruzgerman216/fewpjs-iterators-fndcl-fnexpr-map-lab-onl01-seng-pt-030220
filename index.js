@@ -11,13 +11,10 @@ const tutorials = [
   'what is JSONP?'
 ];
 
-// const titleCased = () => {
-//
-//   return tutorials
-// }
+const titleCased = () => {
 
-const titleCased  = tutorials.map(function(student){
-  if(student == student.toUpperCase()){
-    return student;
-  }
-})
+  return tutorials.map(function(student){
+    if(student == student.toUpperCase()){
+      return student;
+    }
+}
