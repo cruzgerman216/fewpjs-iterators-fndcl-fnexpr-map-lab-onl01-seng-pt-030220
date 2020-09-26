@@ -12,5 +12,12 @@ const tutorials = [
 ];
 
 const titleCased = () => {
+  
   return tutorials
 }
+
+const titleCased  = tutorials.map(function(student){
+  if(student == student.toUpperCase()){
+    return student;
+  }
+})
